@@ -63,7 +63,7 @@ $('document').ready(() => {
     // For deleting info..
 
     deleteRow = (id) => {
-        // alert(id);
+        alert('Deleted Successfully!');
         let retrieveForDelete = localStorage.getItem('itemJson');
         let retrieveForConvert = JSON.parse(retrieveForDelete);
         retrieveForConvert.splice(id, 1);

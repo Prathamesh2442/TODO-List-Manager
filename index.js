@@ -63,7 +63,7 @@ $('document').ready(() => {
     // For deleting info..
 
     deleteRow = (id) => {
-        alert(id);
+        // alert(id);
         let retrieveForDelete = localStorage.getItem('itemJson');
         let retrieveForConvert = JSON.parse(retrieveForDelete);
         retrieveForConvert.splice(id, 1);
@@ -77,7 +77,7 @@ $('document').ready(() => {
     editRow = (id) => {
         let retrieveForEdit = localStorage.getItem('itemJson');
         let retrieveForConvert = JSON.parse(retrieveForEdit);
-        let newChange = prompt('Editing startd..');
+        let newChange = prompt('Editing started..');
         if (newChange == '') {
             alert('Nothing to change..Please give some changes!!');
         } else {

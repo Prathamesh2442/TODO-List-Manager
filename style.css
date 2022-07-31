@@ -16,7 +16,7 @@ td {
 
 #btn {
     padding: 0.5rem 0.5rem;
-    background-color: darkred;
+    background-color: darkblue;
     color: #fff;
     outline: none;
     border: none;
@@ -24,6 +24,13 @@ td {
     margin-top: 1rem;
     cursor: pointer;
     font-size: 1.2rem;
+    transition: .3s all ease-in-out;
+}
+
+#btn:hover {
+    background-color: #fff;
+    color: darkblue;
+    font-weight: 600;
 }
 
 .dButton {
@@ -36,6 +43,14 @@ td {
     margin-top: 1rem;
     cursor: pointer;
     font-size: 1.2rem;
+    font-weight: 600;
+    transition: .3s all ease-in-out;
+}
+
+.dButton:hover {
+    background-color: #fff;
+    color: darkred;
+    font-weight: 600;
 }
 
 .eButton {
@@ -43,11 +58,19 @@ td {
     background-color: darkgreen;
     color: #fff;
     outline: none;
+    font-weight: 600;
     border: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 1rem;
     cursor: pointer;
     font-size: 1.2rem;
+    transition: .3s all ease-in-out;
+}
+
+.eButton:hover {
+    background-color: #fff;
+    color: darkgreen;
+    font-weight: 600;
 }
 
 .head {
